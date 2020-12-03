@@ -1,28 +1,3 @@
-@media only screen and (max-device-width: 480px) {
-        div#wrapper {
-            width: 400px;
-        }
-
-        div#header {
-            background-image: url(media-queries-phone.jpg);
-            height: 93px;
-            position: relative;
-        }
-
-        div#header h1 {
-            font-size: 140%;
-        }
-
-        #content {
-            float: none;
-            width: 100%;
-        }
-
-        #navigation {
-            float:none;
-            width: auto;
-        }
-    }
 body {
   font-family: Roboto;
   background-image: url("cherry.jpg");
@@ -103,3 +78,28 @@ input {
 button{
   margin-left: 20;
 }
+@media only screen and (max-device-width: 480px) {
+        div#wrapper {
+            width: 400px;
+        }
+
+        div#header {
+            background-image: url(media-queries-phone.jpg);
+            height: 93px;
+            position: relative;
+        }
+
+        div#header h1 {
+            font-size: 140%;
+        }
+
+        #content {
+            float: none;
+            width: 100%;
+        }
+
+        #navigation {
+            float:none;
+            width: auto;
+        }
+    }
