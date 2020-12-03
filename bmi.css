@@ -1,0 +1,80 @@
+body {
+  font-family: Roboto;
+  background-image: url("cherry.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+#con {
+  height: 470px;
+  width: 600px;
+  margin: 100px auto;
+  background: #1d3a5c;
+  box-shadow: 5px 5px 5px 5px rgba(50, 20, 50);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 60px;
+  background: linear-gradient(to left, #611419, #1e1617);
+  opacity: 0.948;
+}
+h1 {
+  background: #1F030C;
+  color: white;
+  margin: 0;
+  padding-left: 210;
+  padding-top: 20;
+  padding-bottom: 20;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+p1 {
+  padding-left: 20px;
+  color: white;
+}
+
+form input[type="text"] {
+  width=90px;
+  margin-left: 23px;
+}
+input {
+  padding-left: 20px;
+}
+#we {
+  font-size: 14px;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  border-radius: 3px;
+  width: 30%;
+  margin-left: 12;
+}
+
+#he {
+  font-size: 14px;
+  color: #red;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  border-radius: 3px;
+  width: 30%;
+  margin-left: 15;
+}
+#tip3{
+  width: 10;
+  color: white;
+}
+#tipd{
+  width: 540px;
+  color: white;
+  margin-left: 20;
+}
+#units {
+  width: 14%;
+}
+#unith {
+  width: 14%;
+}
+button{
+  margin-left: 20;
+}
