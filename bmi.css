@@ -3,14 +3,7 @@ body {
   background-image: url("cherry.jpg");
   background-position: center;
   background-size: 100%;}
-@media only screen and (max-device-width: 480px) {
-  body {
-  font-family: Roboto;
-  background-image: url("cherry.jpg");
-  background-position: center;
-  width :100%;
-  background-size: 100%;
-}}
+
 #con {
   height: 470px;
   width: 600px;
@@ -22,18 +15,6 @@ body {
   background: linear-gradient(to left, #611419, #1e1617);
   opacity: 0.948;
 }
-@media only screen and (max-device-width: 480px) {
-#con {
-  height: 95%;
-  width: 85%;
-  margin: 5% 5% 5% 5%;
-  background: #1d3a5c;
-  box-shadow: 5px 5px 5px 5px rgba(50, 20, 50);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 60px;
-  background: linear-gradient(to left, #611419, #1e1617);
-  opacity: 0.948;
-}}
 h1 {
   background: #1F030C;
   color: white;
@@ -47,19 +28,6 @@ h1 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-@media only screen and (max-device-width: 480px) {
-h1 {
-  background: #1F030C;
-  color: white;
-  padding-left: 20%;
-  padding-top: 20;
-  padding-bottom: 20;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: normal;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}}
 
 p1 {
   padding-left: 20px;
@@ -109,7 +77,37 @@ p2{
      color: white;
     }
 @media only screen and (max-device-width: 480px) {
-  p2{
+  body {
+  font-family: Roboto;
+  background-image: url("cherry.jpg");
+  background-position: center;
+  width :100%;
+  background-size: 100%;
+}
+#con {
+  height: 95%;
+  width: 85%;
+  margin: 5% 5% 5% 5%;
+  background: #1d3a5c;
+  box-shadow: 5px 5px 5px 5px rgba(50, 20, 50);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 60px;
+  background: linear-gradient(to left, #611419, #1e1617);
+  opacity: 0.948;
+}
+h1 {
+  background: #1F030C;
+  color: white;
+  padding-left: 20%;
+  padding-top: 20;
+  padding-bottom: 20;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+p2{
      padding-left: 10%;
      color: white;
     }
@@ -126,6 +124,7 @@ width:25%; }
 }
 }
 @media only screen and (max-device-width: 362px){
+
   #we {
   font-size: 11px;
   background-color: #f7f7f7;
