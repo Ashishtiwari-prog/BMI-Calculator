@@ -76,7 +76,6 @@ input {
 #we {
   font-size: 14px;
   background-color: #f7f7f7;
-  width: 60%;
   padding: 5px 5px 8px 8px;
   border-radius: 3px;
   width: 30%;
@@ -85,9 +84,7 @@ input {
 
 #he {
   font-size: 14px;
-  color: #red;
   background-color: #f7f7f7;
-  width: 60%;
   padding: 5px 5px 8px 8px;
   border-radius: 3px;
   width: 30%;
@@ -108,9 +105,13 @@ input {
 #unith {
   width: 14%;
 }
+p2{
+     color: white;
+    }
 @media only screen and (max-device-width: 480px) {
   p2{
      padding-left: 10%;
+     color: white;
     }
   #units{ 
 width:25%; }
@@ -122,6 +123,25 @@ width:25%; }
   color: white;
   font-size: 80%;
   margin-left: 20;
+}
+}
+@media only screen and (max-device-width: 380px){
+  #we {
+  font-size: 11px;
+  background-color: #f7f7f7;
+  padding: 5px 5px 8px 8px;
+  border-radius: 3px;
+  width: 27%;
+  margin-left: 12;
+}
+
+#he {
+  font-size: 11px;
+  background-color: #f7f7f7;
+  padding: 5px 5px 8px 8px;
+  border-radius: 3px;
+  width: 27%;
+  margin-left: 15;
 }
 }
 button{
