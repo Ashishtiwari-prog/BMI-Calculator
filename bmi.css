@@ -125,7 +125,7 @@ width:25%; }
   margin-left: 20;
 }
 }
-@media only screen and (max-device-width: 380px){
+@media only screen and (max-device-width: 362px){
   #we {
   font-size: 11px;
   background-color: #f7f7f7;
