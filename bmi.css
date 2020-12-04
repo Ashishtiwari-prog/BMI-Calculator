@@ -123,7 +123,7 @@ width:25%; }
   margin-left: 20;
 }
 }
-@media only screen and (max-device-width: 362px){
+/*@media only screen and (max-device-width: 362px){
     body {
   font-family: Roboto;
   background-image: url("cherry.jpg");
@@ -186,7 +186,7 @@ width:25%; }
   width: 27%;
   margin-left: 15;
 }
-}
+}*/
 button{
   margin-left: 20;
 }
